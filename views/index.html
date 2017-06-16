@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Image Search Abstraction Layer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header">
+                Image Search API (FreeCodeCamp backend project)
+            </h1>
+            <blockquote>
+                User stories:
+                <ul>1) I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</ul>
+                <ul>2) I can paginate through the responses by adding a ?offset=2 parameter to the URL.</ul>
+                <ul>3) I can get a list of the most recently submitted search strings.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <code>https://isal.glitch.me/api/search/cat</code><br>
+            <code>https://isal.glitch.me/api/search/cat&offset=5</code><br>
+            <code>https://isal.glitch.me/latest</code>
+            <h4>Used technologies: Node.js (body-parser, cors, mongoose, google-images), Express.js, MongoDB</h4>
+        </div>
+    </body>
+</html>
